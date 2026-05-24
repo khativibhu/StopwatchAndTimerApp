@@ -1,0 +1,107 @@
+/* style.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f172a;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+}
+
+h2 {
+   color: aliceblue;
+}
+
+.timer {
+  background: #1e293b;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 420px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.text-fields {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.text-fields input {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  background: #334155;
+  color: white;
+  font-size: 1rem;
+  text-align: center;
+  transition: 0.2s ease;
+}
+
+.text-fields input::placeholder {
+  color: #cbd5e1;
+}
+
+.text-fields input:focus {
+  background: #475569;
+  transform: scale(1.03);
+}
+
+.timer-display {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 28px;
+  letter-spacing: 2px;
+  color: #38bdf8;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 100px;
+}
+
+.buttons button {
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+  font-weight: 600;
+}
+
+.buttons button:hover {
+  transform: translateY(-2px);
+}
+
+.buttons button:active {
+  transform: scale(0.97);
+}
+
+.buttons button:nth-child(1) {
+  background: #22c55e;
+  color: white;
+}
+
+.buttons button:nth-child(2) {
+  background: #f59e0b;
+  color: white;
+}
+
+.buttons button:nth-child(3) {
+  background: #ef4444;
+  color: white;
+}

@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f172a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.stopwatch {
+  background: #1e293b;
+  padding: 40px 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  min-width: 380px;
+}
+
+.timer {
+  display: block;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #f8fafc;
+  letter-spacing: 2px;
+  font-variant-numeric: tabular-nums;
+}
+
+.stopwatch div {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 20px;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
+button:nth-child(1) {
+  background: #22c55e;
+  color: white;
+}
+
+button:nth-child(1):hover {
+  background: #16a34a;
+}
+
+button:nth-child(2) {
+  background: #f59e0b;
+  color: white;
+}
+
+button:nth-child(2):hover {
+  background: #d97706;
+}
+
+button:nth-child(3) {
+  background: #ef4444;
+  color: white;
+}
+
+button:nth-child(3):hover {
+  background: #dc2626;
+}
+
+@media (max-width: 480px) {
+  .stopwatch {
+    min-width: 90%;
+    padding: 30px 20px;
+  }
+
+  .timer {
+    font-size: 2.2rem;
+  }
+
+  .stopwatch div {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+  }
+}

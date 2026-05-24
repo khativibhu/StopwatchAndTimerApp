@@ -1,0 +1,7 @@
+.app {
+  display: flex;
+  gap:30px;
+  margin-left: 80px;
+  margin-top: 90px;
+  height: 400px;
+}
