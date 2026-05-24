@@ -1,6 +1,6 @@
 # StopWatch and Timer App
 
-This project contains a stopwatch and a timer with start,pause and resume functionality. 
+This project is a stopwatch and a timer application with start,pause and resume functionality. 
 
 # React + Vite
 
