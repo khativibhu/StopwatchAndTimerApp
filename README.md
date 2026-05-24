@@ -1,3 +1,7 @@
+#StopWatch and Timer App
+
+This project contains a stopwatch and a timer with start,pause and resume functionality. 
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
