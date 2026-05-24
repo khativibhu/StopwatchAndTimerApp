@@ -1,4 +1,4 @@
-#StopWatch and Timer App
+# StopWatch and Timer App
 
 This project contains a stopwatch and a timer with start,pause and resume functionality. 
 
